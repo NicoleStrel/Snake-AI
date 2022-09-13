@@ -1,0 +1,238 @@
+=================TESTING DEPTH FIRST SEARCH====================
+-----Objective 1, 2, 3: testing wins, time conservation and preformance----------
+control: board size-600x600, speed-2
+variable: moogle locations
+
+Trial	Win	AvTime(sec)	Score
+1	Loss	3.3066	32
+2	Loss	4.0555	21
+3	Loss	3.6529	26
+4	Loss	3.4849	27
+5	Loss	3.8904	31
+6	Loss	4.2021	26
+7	Loss	3.689	29
+8	Loss	4.238	11
+9	Loss	3.6703	9
+10	Loss	3.6779	22
+11	Loss	3.1864	26
+12	Loss	3.8818	24
+13	Loss	3.1498	27
+14	Loss	3.465	22
+15	Loss	3.4298	36
+16	Loss	4.3955	19
+17	Loss	3.3613	29
+18	Loss	3.9247	8
+19	Loss	3.4579	41
+20	Loss	3.7956	31
+21	Loss	4.1503	19
+22	Loss	3.8397	22
+23	Loss	3.6647	19
+24	Loss	3.7715	21
+25	Loss	4.5381	22
+26	Loss	3.7063	29
+27	Loss	3.5178	29
+28	Loss	3.7256	23
+29	Loss	3.9466	16
+30	Loss	3.6897	14
+31	Loss	3.714	28
+32	Loss	3.9993	21
+33	Loss	3.6295	16
+34	Loss	3.2916	32
+35	Loss	3.456	24
+36	Loss	3.762	15
+37	Loss	3.4759	28
+38	Loss	3.8823	37
+39	Loss	3.346	6
+40	Loss	4.1034	27
+41	Loss	3.7649	30
+42	Loss	3.8678	25
+43	Loss	4.6313	14
+44	Loss	3.4183	39
+45	Loss	3.9048	27
+46	Loss	3.4748	34
+47	Loss	4.5267	8
+48	Loss	4.3714	23
+49	Loss	3.7936	32
+50	Loss	4.2227	28
+51	Loss	3.7292	24
+52	Loss	3.9108	27
+53	Loss	3.7303	20
+54	Loss	3.5749	25
+55	Loss	3.7444	28
+56	Loss	3.4178	37
+57	Loss	3.2771	24
+58	Loss	3.5205	33
+59	Loss	4.1884	23
+60	Loss	3.6304	30
+61	Loss	3.7823	39
+62	Loss	4.2686	31
+63	Loss	3.487	33
+64	Loss	4.3204	18
+65	Loss	4.3622	26
+66	Loss	3.4322	31
+67	Loss	3.3283	20
+68	Loss	4.6341	18
+69	Loss	3.7512	30
+70	Loss	4.0835	34
+71	Loss	3.6054	25
+72	Loss	3.2296	10
+73	Loss	4.0207	29
+74	Loss	2.5172	33
+75	Loss	3.7123	26
+76	Loss	2.9905	34
+77	Loss	5.4808	4
+78	Loss	4.2759	28
+79	Loss	4.4748	10
+80	Loss	3.8342	23
+81	Loss	3.5658	38
+82	Loss	3.517	31
+83	Loss	3.4384	24
+84	Loss	3.9081	28
+85	Loss	3.2972	42
+86	Loss	3.3392	20
+87	Loss	4.3369	16
+88	Loss	3.5539	30
+89	Loss	4.7318	25
+90	Loss	4.0037	22
+91	Loss	4.2342	26
+92	Loss	3.6142	15
+93	Loss	3.7675	36
+94	Loss	3.9078	41
+95	Loss	3.6721	23
+96	Loss	3.3822	37
+97	Loss	4.1665	15
+98	Loss	3.631	50
+99	Loss	3.4498	37
+100	Loss	3.7437	26
+
+Summary: 
+Wins over trails: 0.0
+Totaled average time (sec): 3.7868
+Total score: 2560
+Average Score: 25.6
+Average grid fill percentage: 8.0%
+
+---------Objective 4: testing board size adaptability---------
+control: speed-5
+variables: board size, moogle locations
+
+180,180:
+1-grid fill percentage: 50.0%
+2-grid fill percentage: 31.0%
+3-grid fill percentage: 12.0%
+4-grid fill percentage: 12.0%
+5-grid fill percentage: 31.0%
+6-grid fill percentage: 25.0%
+7-grid fill percentage: 44.0%
+8-grid fill percentage: 12.0%
+9-grid fill percentage: 38.0%
+10-grid fill percentage: 6.0%
+Average grid fill percentage: 26.0%
+210,210:
+1-grid fill percentage: 36.0%
+2-grid fill percentage: 48.0%
+3-grid fill percentage: 4.0%
+4-grid fill percentage: 36.0%
+5-grid fill percentage: 16.0%
+6-grid fill percentage: 48.0%
+7-grid fill percentage: 40.0%
+8-grid fill percentage: 8.0%
+9-grid fill percentage: 24.0%
+10-grid fill percentage: 4.0%
+Average grid fill percentage: 26.0%
+240,240:
+1-grid fill percentage: 6.0%
+2-grid fill percentage: 36.0%
+3-grid fill percentage: 6.0%
+4-grid fill percentage: 25.0%
+5-grid fill percentage: 8.0%
+6-grid fill percentage: 14.000000000000002%
+7-grid fill percentage: 50.0%
+8-grid fill percentage: 36.0%
+9-grid fill percentage: 8.0%
+10-grid fill percentage: 31.0%
+Average grid fill percentage: 22.0%
+300,300:
+1-grid fill percentage: 8.0%
+2-grid fill percentage: 23.0%
+3-grid fill percentage: 27.0%
+4-grid fill percentage: 11.0%
+5-grid fill percentage: 22.0%
+6-grid fill percentage: 23.0%
+7-grid fill percentage: 25.0%
+8-grid fill percentage: 38.0%
+9-grid fill percentage: 12.0%
+10-grid fill percentage: 25.0%
+Average grid fill percentage: 21.0%
+420,420:
+1-grid fill percentage: 12.0%
+2-grid fill percentage: 17.0%
+3-grid fill percentage: 16.0%
+4-grid fill percentage: 15.0%
+5-grid fill percentage: 22.0%
+6-grid fill percentage: 20.0%
+7-grid fill percentage: 23.0%
+8-grid fill percentage: 19.0%
+9-grid fill percentage: 14.000000000000002%
+10-grid fill percentage: 17.0%
+Average grid fill percentage: 17.0%
+450,450:
+1-grid fill percentage: 11.0%
+2-grid fill percentage: 7.000000000000001%
+3-grid fill percentage: 12.0%
+4-grid fill percentage: 18.0%
+5-grid fill percentage: 15.0%
+6-grid fill percentage: 1.0%
+7-grid fill percentage: 14.000000000000002%
+8-grid fill percentage: 1.0%
+9-grid fill percentage: 11.0%
+10-grid fill percentage: 12.0%
+Average grid fill percentage: 10.0%
+510,510:
+1-grid fill percentage: 12.0%
+2-grid fill percentage: 3.0%
+3-grid fill percentage: 11.0%
+4-grid fill percentage: 7.000000000000001%
+5-grid fill percentage: 0.0%
+6-grid fill percentage: 13.0%
+7-grid fill percentage: 16.0%
+8-grid fill percentage: 12.0%
+9-grid fill percentage: 12.0%
+10-grid fill percentage: 17.0%
+Average grid fill percentage: 10.0%
+600,600:
+1-grid fill percentage: 8.0%
+2-grid fill percentage: 12.0%
+3-grid fill percentage: 12.0%
+4-grid fill percentage: 11.0%
+5-grid fill percentage: 6.0%
+6-grid fill percentage: 5.0%
+7-grid fill percentage: 12.0%
+8-grid fill percentage: 8.0%
+9-grid fill percentage: 6.0%
+10-grid fill percentage: 6.0%
+Average grid fill percentage: 9.0%
+840,840:
+1-grid fill percentage: 5.0%
+2-grid fill percentage: 7.000000000000001%
+3-grid fill percentage: 6.0%
+4-grid fill percentage: 3.0%
+5-grid fill percentage: 5.0%
+6-grid fill percentage: 7.000000000000001%
+7-grid fill percentage: 8.0%
+8-grid fill percentage: 6.0%
+9-grid fill percentage: 7.000000000000001%
+10-grid fill percentage: 4.0%
+Average grid fill percentage: 6.0%
+900,900:
+1-grid fill percentage: 5.0%
+2-grid fill percentage: 5.0%
+3-grid fill percentage: 3.0%
+4-grid fill percentage: 5.0%
+5-grid fill percentage: 6.0%
+6-grid fill percentage: 5.0%
+7-grid fill percentage: 1.0%
+8-grid fill percentage: 5.0%
+9-grid fill percentage: 3.0%
+10-grid fill percentage: 5.0%
+Average grid fill percentage: 4.0%

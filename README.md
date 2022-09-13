@@ -3,3 +3,5 @@ AI snake solver using graph algorithms: Depth-First Search (DFS), Breadth-First 
 
 - must have pygame installed: `pip3 install pygame`
 - to run: `python3 GameWindow.py`
+
+[Demo Video](https://youtu.be/LOslRZS3mAI)
